@@ -1,0 +1,27 @@
+body,html{
+    height:100%;
+    margin: 0;
+}
+.bg {
+
+    background-image: url(/images/js2.png);
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header h2 {
+    color: red; 
+}
+
+.caption {
+    background-color:black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 255, 136);
+  }
