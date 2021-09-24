@@ -75,7 +75,31 @@ btn.addEventListener("click", function () {
 
 })
 
-function getrandomNumber(){
+function getrandomNumber() {
     return Math.floor(Math.random() * hex.length)
 }
 
+//Counter
+
+let count = 0;
+const value = document.getElementById('value');
+const btns = document.querySelectorAll('.btn');
+
+// console.log(btns)
+btns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const styles = e.currentTarget.classList;
+        if (styles.contains('decrease')) {
+            count--;
+        } else if (styles.contains("increase")) {
+            count++;
+
+        } else {
+            count = 0;
+        }
+        document.getElementById('value').innerHTML = count;
+
+
+    })
+   
+})
