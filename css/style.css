@@ -11,6 +11,9 @@ body,html{
     background-size: cover;
 
 }
+.nav{
+    background-color: rgb(1, 1, 43);
+}
 
 .header h2 {
     color: red; 
@@ -25,3 +28,20 @@ body,html{
     text-align: center;
     color: rgb(0, 255, 136);
   }
+  #date{
+      color: rgb(0, 214, 132);
+      float: right;
+      margin-right:3%;
+      font-size:30px;
+
+  }
+  #jshead{
+      color: rgb(252, 252, 8);
+  }
+  #phead{
+      color:rgb(160, 2, 2);
+  }
+.w-head{
+    background-color:rgb(17, 22, 22);
+    border-bottom: 1px solid white;
+}
