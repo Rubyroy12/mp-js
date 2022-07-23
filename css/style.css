@@ -45,3 +45,6 @@ body,html{
     background-color:rgb(17, 22, 22);
     border-bottom: 1px solid white;
 }
+nav{
+    color:red;
+}

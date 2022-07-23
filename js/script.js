@@ -101,5 +101,28 @@ btns.forEach(function (btn) {
 
 
     })
-   
+
 })
+
+
+
+//Consuming API 
+fetch("https://jsonplaceholder.typicode.com/users")
+    .then(response => {
+        return response.json()
+    }).then(users => {
+        document.getElementById('users').innerHTML = JSON.stringify(users);
+    });
+
+
+$(window).bind('mousewheel', function (event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+        console.log('Scroll up');
+        documen
+    } else {
+        console.log('Scroll down');
+    }
+});
+
+var myname = prompt("Enter your name: ");
+document.getElementById("myname").innerHTML = myname;
